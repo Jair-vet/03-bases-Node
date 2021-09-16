@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Jair-vet/03-bases-Node#readme",
   "dependencies": {
     "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
