@@ -1,3 +1,4 @@
+const yargs = require('yargs');
 const opts = {
     base: {
         demand: true,
@@ -19,4 +20,4 @@ const argv = require('yargs')
 
 module.exports = {
     argv
-}
+} 
