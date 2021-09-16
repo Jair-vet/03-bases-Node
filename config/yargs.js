@@ -1,4 +1,5 @@
 const yargs = require('yargs');
+const yargs = require('yargs');
 const opts = {
     base: {
         demand: true,

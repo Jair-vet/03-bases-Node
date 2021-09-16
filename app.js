@@ -1,3 +1,4 @@
+const argv = require('./helpers/multiplicar').argv;
 const argv = require('./config/yargs').argv;
 const colors = require('colors/safe');
 
@@ -23,7 +24,7 @@ switch (comando) {
 
 }
 
-
+ 
 
 // console.log(argv.base);
 
