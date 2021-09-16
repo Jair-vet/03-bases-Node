@@ -32,7 +32,7 @@ let crearArchivo = (base, limite = 10) => {
         }
 
 
-        fs.writeFile(`tablas/tabla-${ base }-al-${ limite }.txt`, data, (err) => {
+        fs.writeFile(`./salida/tabla-${ base }-al-${ limite }.txt`, data, (err) => {
 
             if (err)
                 reject(err)

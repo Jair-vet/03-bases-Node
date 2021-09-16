@@ -1,5 +1,6 @@
-const argv = require('./helpers/multiplicar').argv;
+
 const argv = require('./config/yargs').argv;
+
 const colors = require('colors/safe');
 
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar');
